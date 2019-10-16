@@ -1,0 +1,41 @@
+.header {
+	background-color: #060303;
+	box-shadow: 0 0 90px rgba(255, 255, 255, 0.15);
+}
+
+.header__box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 90px;
+}
+
+.header__left {
+	img {
+		max-width: 225px;
+	}
+}
+
+.header__right {
+	display: flex;
+	align-items: center;
+}
+
+.header__right_link {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.header__right_link_icon {
+	margin-right: 15px;
+}
+
+.header__right_link_text {
+	font-size: 18px;
+	color: $white;
+}
+
+.header__right_btn {
+	margin-left: 60px;
+}
