@@ -1,0 +1,23 @@
+.home-1 {
+	padding: 80px 0 150px;
+	background-image: url(../../assets/img/bg/home-1.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.home-1__box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.home-1__left {
+	display: flex;
+	align-items: center;
+	width: 80%;
+}
+
+.home-1__right {
+	width: 100%;
+}
