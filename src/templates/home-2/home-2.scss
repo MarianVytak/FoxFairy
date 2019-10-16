@@ -1,0 +1,29 @@
+.home-2 {
+	margin-top: -70px;
+	padding: 110px 0 80px;
+	background-image: url(../../assets/img/bg/home-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.home-2__box {
+	display: flex;
+}
+
+.home-2__left {
+	width: 100%;
+}
+
+.home-2__left_img {
+	margin-top: 20px;
+}
+
+.home-2__right {
+	width: 100%;
+	padding-top: 50px;
+}
+
+.home-2__right_img {
+	margin-top: 50px;
+}

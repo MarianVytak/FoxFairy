@@ -1,9 +1,11 @@
 .home-1 {
+	position: relative;
 	padding: 80px 0 150px;
 	background-image: url(../../assets/img/bg/home-1.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	z-index: 2;
 }
 
 .home-1__box {
@@ -20,4 +22,8 @@
 
 .home-1__right {
 	width: 100%;
+}
+
+.home-1__title {
+	margin-top: 75px;
 }
