@@ -21,3 +21,12 @@
 .text-grey {
 	color: rgba($white,.3);
 }
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo__text {
+	color: $main;
+}
