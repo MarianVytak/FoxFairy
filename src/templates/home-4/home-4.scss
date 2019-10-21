@@ -18,6 +18,20 @@
 	border: 3px solid #222427;
 }
 
+.home-4__block_img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	max-width: 650px;
+	height: 0;
+	visibility: hidden;
+	&.active {
+		height: auto;
+		visibility: visible;
+	}
+}
+
 .home-4__block_item {
 	position: absolute;
 	display: flex;
