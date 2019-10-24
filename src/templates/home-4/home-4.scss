@@ -30,6 +30,11 @@
 		height: auto;
 		visibility: visible;
 	}
+	a {
+		&:focus {
+			outline: none;
+		}
+	}
 }
 
 .home-4__block_item {
