@@ -31,9 +31,13 @@
 		visibility: visible;
 	}
 	a {
+		transition: all 0s;
 		&:focus {
 			outline: none;
 		}
+	}
+	.slick-dots {
+		transition: opacity 0s;
 	}
 }
 
