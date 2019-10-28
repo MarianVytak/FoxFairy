@@ -34,3 +34,21 @@
 	font-family: 'BehrensAntiqua', sans-serif;
 	color: $main;
 }
+
+.mobile-logo {
+	display: none;
+}
+
+
+
+@media (max-width: 991.98px) {
+	.title-1 {
+		font-size: 28px;
+	}
+	.mobile-logo {
+		display: flex;
+	}
+	.desktop-logo {
+		display: none;
+	}
+}

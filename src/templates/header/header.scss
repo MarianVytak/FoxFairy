@@ -45,3 +45,26 @@
 .header__right_btn {
 	margin-left: 60px;
 }
+
+
+
+.home-2,
+.home-3,
+.home-4,
+.home-5,
+.footer {
+	display: none;
+}
+
+@media (max-width: 767.98px) {
+	.header__box {
+		height: 60px;
+	}
+	.header__left {
+		display: none;
+	}
+	.header__right {
+		justify-content: space-between;
+		width: 100%;
+	}
+}

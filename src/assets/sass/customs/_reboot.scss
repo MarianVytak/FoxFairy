@@ -13,6 +13,7 @@ body {
   max-width: 1130px;
   margin: 0 auto;
   padding: 0 15px;
+  box-sizing: border-box;
 }
 
 img {
@@ -68,3 +69,11 @@ input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+
+
+@media (max-width: 991.98px) {
+  body {
+    font-size: 14px;
+  }
+}
