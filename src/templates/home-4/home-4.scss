@@ -226,6 +226,10 @@
 	font-size: 38px;
 }
 
+.home-4__mobile {
+	display: none;
+}
+
 .home-4__mobile_img {
 	height: 0;
 	visibility: hidden;
@@ -299,6 +303,9 @@
 @media (max-width: 1199.98px) {
 	.home-4__block {
 		display: none;
+	}
+	.home-4__mobile {
+		display: block;
 	}
 	.home-4__bottom {
 		margin-top: 30px;
