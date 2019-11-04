@@ -192,6 +192,12 @@ input[type="number"] {
 	.label {
 		display: none;
 	}
+	.steep-info {
+		.form-title,
+		.label {
+			display: block;
+		}
+	}
 	.placeholder {
 		position: absolute;
 		left: 15px;
@@ -203,6 +209,12 @@ input[type="number"] {
 	select {
 		option {
 			color: $black;
+		}
+	}
+	.form-steep {
+		display: none;
+		&.active {
+			display: block;
 		}
 	}
 }
