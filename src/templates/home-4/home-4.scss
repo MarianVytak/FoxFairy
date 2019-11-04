@@ -300,6 +300,12 @@
 
 
 
+@media (min-width: 1200px) {
+	.home-4__mobile_name {
+		display: none !important;
+	}
+}
+
 @media (max-width: 1199.98px) {
 	.home-4__block {
 		display: none;
