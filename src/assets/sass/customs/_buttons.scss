@@ -23,5 +23,11 @@
 	.btn {
 		width: 120px;
 		height: 40px;
+		//background-color: $main;
+		//color: $black;
+		&:hover {
+			background-color: transparent;
+			color: $main;
+		}
 	}
 }
