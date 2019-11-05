@@ -167,7 +167,8 @@ input[type="number"] {
 	}
 	.form-grid {
 		grid-template-columns: 1fr;
-		margin-bottom: 30px;
+		grid-gap: 15px;
+		margin-bottom: 15px;
 		.form-group {
 			&:last-child {
 				margin-bottom: 0;
@@ -179,6 +180,9 @@ input[type="number"] {
 		.form-group {
 			margin-right: 0;
 		}
+	}
+	.form-group {
+		margin-bottom: 15px;
 	}
 	.form-box-small {
 		flex-wrap: nowrap;
