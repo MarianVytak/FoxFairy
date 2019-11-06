@@ -26,6 +26,15 @@
 	display: none;
 }
 
+.home-5_form__btn_mobile {
+	background-color: $main;
+	color: $black;
+	&:hover {
+		background-color: $main;
+		color: $black;
+	}
+}
+
 
 
 @media (max-width: 767.98px) {
