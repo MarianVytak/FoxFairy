@@ -216,7 +216,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 187px;
+	min-width: 187px;
 	height: 51px;
 	margin-right: 12px;
 	background-position: center;
@@ -224,6 +224,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-size: 38px;
+	white-space: nowrap;
 }
 
 .home-4__mobile {
